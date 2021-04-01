@@ -1,6 +1,68 @@
+/* Html */
+
 body{
     background-color: black;
     margin: 0;
+    color: #fff;
+}
+
+nav ul{
+    text-decoration: none;
+    list-style: none;    
+    position: absolute;
+    right: 2%;
+    top: 6%;
+}
+
+nav li {
+    display: inline;
+}
+
+h1 {
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 2.5rem;
+}
+
+h2, h3 {
+    font-family: 'Roboto Slab', serif;
+
+}
+
+img {
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+}
+
+/* Nav */
+
+.header{
+    height: 7rem;
+}
+
+.logo-nav {
+    height: auto;
+    width: 12rem;
+}
+
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    display: inline;
+    padding: 2rem 1rem;    
+}
+
+.title-heading { 
+    text-align: center;
+    position: relative;
+    display: inline;
+
+}
+
+.title img {    
+    position: absolute;
+    right: 10%;       
 }
 
 .icon-color{
